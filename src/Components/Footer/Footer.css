@@ -1,0 +1,31 @@
+#footer {
+     display: flex;
+     justify-content: left;
+     text-align: left;
+     align-items: center;
+     font-size: 0.65em;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     min-height: 100px;
+     color: #fff;
+     background: #df7c6d;
+}
+
+#footer .site-info p {
+     margin: 0;
+     line-height: 2;
+}
+
+#footer .site-info a {
+     position: relative;
+     color: #ffffff;
+     text-decoration: none;
+}
+
+#footer .site-info a:after {
+     display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+}
